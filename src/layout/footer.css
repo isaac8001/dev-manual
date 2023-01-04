@@ -1,0 +1,25 @@
+footer {
+  width: 100%;
+  height: 38px;
+  background-color: #2e3950;
+  color: #fff;
+}
+
+footer > div {
+  height: 100%;
+  line-height: 38px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footerlogo {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.main {
+  display: inline-block;
+}
