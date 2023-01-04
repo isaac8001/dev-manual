@@ -1,20 +1,74 @@
 .main-logo {
-  float: left;
-  width: 230px;
+  height: 70px;
   margin-left: 30px;
+  margin-right: 60px;
+  float: left;
 }
 
 h1 {
   height: 70px;
-  display: inline-block;
+  display: inline;
 }
 
 /* fixed 해야함 */
 header {
   width: 100%;
   height: 70px;
+  /* position: fixed; */
+}
+
+.pcmenu {
+  float: left;
 }
 
 .nav {
-  float: left;
+  height: 70px;
+}
+
+.main {
+  color: #fff;
+  width: 150px;
+  height: 70px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.main > a {
+  display: block;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  /* padding-bottom: 5px; */
+}
+.main > a:hover {
+  border-bottom: 4px solid #ffcd00;
+  font-weight: bold;
+}
+
+.sub {
+  position: absolute;
+  z-index: 1;
+  width: 160px;
+  font-size: 14px;
+  background-color: #60697d;
+  top: 70px;
+  display: none;
+}
+
+.sub > li {
+  height: 32px;
+}
+.sub > li:hover {
+  background-color: #3e4b62;
+}
+
+.sub > li > a {
+  color: #fff;
+  display: block;
+  padding: 5px;
+}
+
+.sub > li > a:hover {
+  color: #ffcd00;
 }
