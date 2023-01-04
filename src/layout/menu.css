@@ -1,0 +1,11 @@
+menu {
+  width: 312px;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  /* position: fixed; */
+  left: 0;
+}
+
+menu ul {
+  margin-left: 30px;
+}
