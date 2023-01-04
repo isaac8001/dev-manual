@@ -3,11 +3,22 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-      <header style={{ backgroundImage: "url(img/header.png))" }}>
+      <header
+        style={{
+          backgroundImage:
+            "url(https://docs.popbill.com/static/img/bg/header_bg.jpg)",
+        }}
+      >
         <h1>
-          <img src={process.env.PUBLIC_URL + "/img/main-logo.png"} alt="" />
+          <a href="#none">
+            <img
+              className="main-logo"
+              src={process.env.PUBLIC_URL + "/img/main-logo.png"}
+              alt=""
+            />
+          </a>
         </h1>
-        <ul>
+        <ul className="nav">
           <li className="main">
             메인메뉴 1
             <ul className="sub">

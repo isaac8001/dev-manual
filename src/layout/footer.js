@@ -1,4 +1,4 @@
-import './footer.css';
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -6,7 +6,7 @@ const Footer = () => {
       <footer>
         <img
           className="footerlogo"
-          src={process.env.PUBLIC_URL + '/img/footer-logo.png'}
+          src={process.env.PUBLIC_URL + "/img/footer-logo.png"}
           alt=""
         />
         <div>여기는 푸우 ~ 터어~ 입니다.</div>
