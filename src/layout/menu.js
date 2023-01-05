@@ -20,7 +20,7 @@ const Menu = () => {
             <a href="#none">REACT</a>
             <ul className="side-sub">
               <li>
-                <a href="#none">히히</a>
+                <a href="#none">1</a>
               </li>
             </ul>
           </li>

@@ -1,9 +1,10 @@
 menu {
-  width: 312px;
+  width: 272px;
   background-color: #fff;
   border: 1px solid #dddddd;
-  /* position: fixed; */
+  height: 100vh;
   left: 0;
+  padding: 20px;
 }
 
 menu ul {
