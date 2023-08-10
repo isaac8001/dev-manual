@@ -3,7 +3,8 @@ import "./layout/footer.css";
 import Header from "./layout/header";
 import Menu from "./layout/menu";
 import Footer from "./layout/footer";
-import Article from "./layout/article";
+import Inputbutton from "./layout/article";
+import Protocol from "./layout/protocol";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Header />
       <div className="flex">
         <Menu />
-        <Article />
+        <Inputbutton />
+        <Protocol />
       </div>
       <Footer />
     </div>
